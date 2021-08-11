@@ -1,0 +1,191 @@
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.d-flex{
+	display: flex;
+}
+.d-flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@font-face{
+  font-family: "Janda Manatee Bubble";
+  src: url("JandaManateeBubble.ttf") format("truetype");
+}
+@font-face{
+  font-family: "Janda Manatee Solid";
+  src: url("JandaManateeSolid.ttf") format("truetype");
+}
+/*----------------PARTICLE JS--------------------*/
+#particles-js {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+}
+
+
+/*----------------NAVBAR------------------*/
+nav{
+	background-color: #e3e9ee;
+	padding: 0 30px;
+	/*position: fixed;*/
+	/*z-index: 1;*/
+}
+
+
+
+
+
+
+/*---------------------------Heading Intro -------------------------*/
+.heading{
+	width: 100%;
+	height: 90vh;
+	background-color: #e3e9ee;
+	clip-path: polygon(0 0, 100% 0, 100% 57%, 0% 100%);
+	padding-left: 10%;
+	padding-top: 8%;
+	overflow: hidden;
+}
+.box{
+	width: 20px ;
+	height: 20px;
+	display: inline-block;
+}
+
+/*--------   -----------------------------Projects----------------------*/
+.projects{
+	padding: 0 10%;
+}
+.tech-stack{
+	margin-top: 1rem;
+	/*display: none;*/
+}
+.tech-stack .chip{
+	cursor: pointer;
+}
+.projects .card-action a i {
+	vertical-align: bottom;
+	font-size: 19px;
+}
+.projects .card-reveal-info{
+	position: absolute;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	background-color: dodgerblue;
+	padding: 20px;
+	clip-path: circle(5% at 100% 87%);
+	transition: clip-path .5s ease-in-out ;
+}
+.projects	.card:hover .card-reveal-info{
+	clip-path: circle(70%);
+}
+
+/*-----------------Experience-----------------*/
+.experience{
+	position: relative;
+}
+.experience .card-panel{
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	border-radius: 10px;
+
+}
+.experience .card-panel:nth-child(1){
+	background-image: url("../img/experience/bg1.jpg");
+}
+.experience .card-panel:nth-child(2){
+	background-image: url("../img/experience/bg2.jpg");
+}
+.experience .card-panel:nth-child(3){
+	background-image: url("../img/experience/bg3.jpg");
+}
+.experience .card-panel:nth-child(4){
+	background-image: url("../img/experience/bg4.jpg");
+}
+
+
+/*------------------Education-----------------------*/
+
+.education .card-panel{
+	border-radius: 30px;
+	margin-top: 30px;
+	transition: transform .3s;
+	background-color: aliceblue;
+	z-index: 1;
+	position: relative;
+}
+.education .card-panel:hover .bg{
+	/*clip-path: inset(0% 0% 0% 0%);*/
+	/*animation-fill-mode: forwards;*/
+}
+.education .card-panel:hover h6{
+	/*color: white;*/
+}
+.education a{
+	color: black;
+}
+.education .bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	border-radius: 30px;
+	z-index: -1;
+	clip-path: inset(0% 5% 0% 90%) ;
+	transition: clip-path .5s ease-in-out ;
+}
+
+/*---------------------Skills------------------------------*/
+#skills .container {
+	padding: 40vh 0;
+	position: relative;
+}
+#skills h1 {
+	font-family: 'Janda Manatee Solid',sans-serif;
+	font-size: 5rem;
+}
+#skills .skimg {
+	font-size: 4rem;
+	font-family: 'Janda Manatee Bubble',sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+/*.skills{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 5%;
+}
+.skills img{
+	padding: 10px;
+}*/
+/*------------------------Contact--------------------------*/
+#contact{
+	padding: 5%;
+}
+#contact .container{
+	padding: 1% 10%;
+	border-radius: 30px;
+}
+#contact .sm-links {
+	padding: 5%;
+}
+#contact .sm-links i.large {
+	margin: 10px;
+	transition: transform .3s ease-out ;
+}
+/*#contact .sm-links i.large:hover {
+	transform: scale(1.2);
+}*/
