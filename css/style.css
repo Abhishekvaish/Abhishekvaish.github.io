@@ -61,6 +61,11 @@ nav{
 .projects{
 	padding: 0 10%;
 }
+@media screen and (max-width: 992px) {
+  .projects{
+		padding: 0 4%;
+	}
+}
 .tech-stack{
 	margin-top: 1rem;
 	/*display: none;*/
@@ -127,7 +132,7 @@ nav{
 	/*animation-fill-mode: forwards;*/
 }
 .education .card-panel:hover h6{
-	/*color: white;*/
+	/*color: blueviolet;*/
 }
 .education a{
 	color: black;
@@ -143,10 +148,25 @@ nav{
 	clip-path: inset(0% 5% 0% 90%) ;
 	transition: clip-path .5s ease-in-out ;
 }
+.education .icn{
+	display: grid;
+	justify-content: center; 
+}
+.education .icn h6{
+	margin: 5px auto;
+}
+@media only screen and (max-width: 601px){
+	.education .icn{
+		display: block;
+	}	
+	.education .icn h6{
+		margin: 5px 0;
+	}
+}
 
 /*---------------------Skills------------------------------*/
 #skills .container {
-	padding: 40vh 0;
+	padding: 27vh 0;
 	position: relative;
 }
 #skills h1 {
@@ -162,21 +182,21 @@ nav{
 	left: 50%;
 }
 
-/*.skills{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding: 5%;
-}
-.skills img{
-	padding: 10px;
-}*/
+@media screen and (max-width: 700px) {
+  #skills h1{
+  	font-size: 3rem;
+  }
+  #skills .skimg{
+  	font-size: 2rem;
+  }
+} 
 /*------------------------Contact--------------------------*/
 #contact{
 	padding: 5%;
 }
 #contact .container{
-	padding: 1% 10%;
+	/*padding: 1% 10%;*/
+	padding-top: 1%;
 	border-radius: 30px;
 }
 #contact .sm-links {
