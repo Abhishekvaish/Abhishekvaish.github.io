@@ -104,16 +104,20 @@ nav{
 
 }
 .experience .card-panel:nth-child(1){
-	background-image: url("../img/experience/bg1.jpg");
+	background-color: #36474f;
+	/*background-image: url("../img/experience/bg1.jpg");*/
 }
 .experience .card-panel:nth-child(2){
-	background-image: url("../img/experience/bg2.jpg");
+	background-color: #009788;
+	/*background-image: url("../img/experience/bg2.jpg");*/
 }
 .experience .card-panel:nth-child(3){
-	background-image: url("../img/experience/bg3.jpg");
+	background-color: #0277bd;
+	/*background-image: url("../img/experience/bg3.jpg");*/
 }
 .experience .card-panel:nth-child(4){
-	background-image: url("../img/experience/bg4.jpg");
+	background-color: #566e7a;
+	/*background-image: url("../img/experience/bg4.jpg");*/
 }
 
 
@@ -190,6 +194,15 @@ nav{
   	font-size: 2rem;
   }
 } 
+@media screen and (max-width: 450px) {
+  #skills h1{
+  	font-size: 2rem;
+  }
+  #skills .skimg{
+  	font-size: 1.5rem;
+  }
+} 
+
 /*------------------------Contact--------------------------*/
 #contact{
 	padding: 5%;
