@@ -1,578 +1,432 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Abhishek Vaish | Portfolio</title>
-	<!--Import Google Icon Font-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<head>
+		<meta charset="utf-8" />
+		<title>Abhishek Vaish | Portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
 
-	<!--Import materialize.css-->
-	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
-	<!--Let browser know website is optimized for mobile-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</head>
-<body>
-<!-- <div style="display: none;"> -->
-
-<div id="particles-js">
-</div>
-
-
-
-<!-- navbar -->
-
-	<nav>
-		<div class="navbar-wrapper">
-				<a href="#!" class="brand-logo black-text"> Abhishek</a>
-				<a href="#" class="sidenav-trigger" data-target="sideNavBar">
-						<i class="material-icons black-text">menu</i>
-				</a>
-				<ul class="right hide-on-med-and-down">
-						<li class=""><a href="#index" class="black-text">Home</a></li>
-						<li class="li-project" ><a href="#project" class="black-text">Projects</a></li>
-						<li><a href="#experience" class="black-text">Experience </a></li>
-						<li><a href="#education" class="black-text">Education</a></li>
-						<li><a href="#skills" class="black-text">Skills</a></li>
-						<li><a href="#contact" class="black-text">Contact</a></li>
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="brand">Abhishek</div>
+				<ul>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#skills">Skills</a></li>
 				</ul>
-		</div>
-	</nav>
-		
-	<ul class="sidenav sidenav-close" id="sideNavBar" >
-			<li>
-					<div class="user-view">
-						<div class="background">
-								<img src="img/socialbg.jpg">
+			</nav>
+			<input type="checkbox" id="hamburger" style="display: none" />
+			<label for="hamburger">
+				<div></div>
+				<div></div>
+				<div></div>
+			</label>
+			<div class="nav-items">
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#skills">Skills</a></li>
+			</div>
+			<div class="hero">
+				<h1></h1>
+				<span>|</span>
+			</div>
+		</header>
+		<main>
+			<section class="about">
+				<div class="card">
+					<div class="pic">
+						<!-- <img src="icons/man.png" alt="profile photo" /> -->
+						<img src="pic.jpg" alt="profile photo" />
+					</div>
+					<div class="info">
+						<h3>Hi there.....</h3>
+						<hr />
+						<br />
+						<p>
+							I am a Computer Engineering 2022 graduate from K.J. Somaiya Institute of Engineering and I.T Mumbai, I have experience in
+							Automation and web development
+						</p>
+
+						<br />
+
+						<div class="sm-links">
+							<a
+								href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;to=abhishek953566936222@gmail.com&amp;tf=1"
+								target="blank"
+							>
+								<i class="fa fa-envelope large" aria-hidden="true"></i
+							></a>
+							<a href="https://github.com/Abhishekvaish" target="blank" class="white-text smlink">
+								<i class="fab fa-github large" aria-hidden="true"></i
+							></a>
+							<a href="https://twitter.com/Abhishekvaish40" target="blank" class="white-text smlink">
+								<i class="fab fa-twitter large" aria-hidden="true"></i
+							></a>
+							<a href="https://www.linkedin.com/in/abhishek-vaish-b3195817a/" target="blank" class="white-text smlink">
+								<i class="fa fa-linkedin-square large" aria-hidden="true"></i
+							></a>
+							<br /><br /><br />
+							<a href="img/Abhishek_Vaish.pdf" target="blank"> Resume</a>
 						</div>
-						<i class="material-icons medium" style="vertical-align:-40px;cursor: pointer;">account_circle</i>
-						<span class="name ">Abhishek Vaish</span>
-						<span class="email ">abhishek953566936222@gmail.com</span>
+						<!-- <a target="_blank" href="https://www.flaticon.com/free-icons/name" title="About icons created by LAFS - Flaticon">
+							<img src="icons/id-card.png" alt="id card logo" width="50" height="50" />
+						</a> -->
 					</div>
-			</li>
-			<li><a href="#index"><i class="material-icons black-text">home</i>Home</a></li>
-			<li><a href="#project"><i class="material-icons black-text">apps</i>Projects</a>
-			</li>
-			<li><a href="#experience"><i class="material-icons black-text">assessment</i> Experience </a></li>
-			<li><a href="#education"><i class="material-icons black-text">book</i>Education</a>
-			</li>
-			<li><a href="#skills"><i class="material-icons black-text">code</i>Skills</a></li>
-			</li>
-			<li><a href="#contact"><i class="material-icons black-text">contacts</i>Contact</a>
-	</ul>
-
-<!-- end navbar -->
-
-
-<div class="heading" id="index">
-	<div class="d-flex">
-		<div>
-			<h1>Hi...</h1>
-			<h5 class="flow-text">A computer science enthusiast building something new</h5>  
-			<br>
-			<div class="box " style="background-color: green;"></div>
-			<div class="box " style="background-color: blue;"></div>
-			<div class="box " style="background-color: red;"></div>
-			<div class="box " style="background-color: hotpink;"></div>
-			<div class="box " style="background-color: hotpink;"></div>
-			<div class="box " style="background-color: red;"></div>
-			<div class="box " style="background-color: green;"></div>
-			<div class="box " style="background-color: blue;"></div>
-		</div>	
-		<div class="hide-on-small-and-down">
-			<img src="img/robot.png" width="300" height="200">		
-		</div>
-	</div>
-	
-</div>
-
-
-	
-<section id="project">
-	<div style="height: 10rem;"></div>
-	<h3 class="container center" >Projects</h3>
-	<div style="height: 3rem;"></div>
-
-	<div class="row projects " >
-		<!-- Project Management System -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-
-				<div class="card-image waves-effect waves-block waves-light">
-					<img class="activator" src="img/projects/pms.JPG">
 				</div>
+			</section>
 
-				<div class="card-content">
-					<h5 class="activator "><b>Project Management System</b></h5>
-			    <p>A website for managing Final Year projects</p>
-				</div>
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>Project Management System</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip blue darken-4 white-text">MongoDB</div>
-						<div class="chip teal white-text">Express</div>
-						<div class="chip pink accent-4 white-text">React</div>
-						<div class="chip green white-text">NodeJS</div>
+			<section class="project" id="projects">
+				<h1>Projects</h1>
+				<div class="card">
+					<div class="left">
+						<h3>Project Management System</h3>
+						<hr />
+						<br />
+						<p>
+							A portal for managing Academic Projects of students from proposal to marks of final presentation which has users with role
+							admin, HOD, guide and student. Created using MERN stack and filestack for uploaded file.
+						</p>
+						<a target="_blank" href="https://github.com/Abhishekvaish/Project-Management-System" title=""
+							><i class="fab fa-github large"></i
+						></a>
+						<a target="_blank" href="http://project-management-system-ark.herokuapp.com/"> <i class="fas fa-globe large"></i></a>
+
+						<!-- <img class="icon" src="icons/link.png" alt="Link icons created by Freepik - Flaticon" />
+						<img class="icon" src="icons/link.png" alt="Link icons created by Freepik - Flaticon" />
+						<img class="icon" src="icons/link.png" alt="Link icons created by Freepik - Flaticon" /> -->
 					</div>
-					<p class="white-text">A website for managing Academic Projects of students which ha s users with role admin, HOD, guide and student .</p>
-				</div>
-
-				<div class="card-action">
-					<a href="https://projectmanagement.kjsieit.in/" target="_blank" class="blue-text">
-						Website 
-						<i class="material-icons">language</i>
-					</a>
-					<a href="https://github.com/Abhishekvaish/Project-Management-System" target="_blank" class="blue-text">
-							Source Code
-							<i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Article -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action">
-				<div class="card-image">
-					<img src="img/projects/article.JPG">
-				</div>
-
-				<div class="card-content">
-					<h5><b>Article</b> </h5>
-					<p>A static site to write articles by adding a markdown file that automatically get converted to html</p> 
-				</div>
-				
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>Artcile</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip lime darken-4 white-text">Gatsby JS</div>
-						<div class="chip teal white-text">GraphQL</div>
-						<div class="chip pink accent-4 white-text">Materialize CSS</div>
+					<div class="right">
+						<div class="clipinfo">
+							<h3>Tech Stack</h3>
+							<p>&star; Backend - NodeJS, Express</p>
+							<p>&star; Database - MongoDB</p>
+							<p>&star; Frontend - React</p>
+							<p>&star; Server/Hosted on - Heroku</p>
+						</div>
+						<img class="p-img" src="img/projects/pms.JPG" alt="blogshare Cover picture" />
 					</div>
-					<p class="white-text">Converting markdown files to html using Gatbsy and GraphyQL .</p>
 				</div>
-
-				<div class="card-action">
-					<a href="https://articles-for-me.netlify.app" target="_blank" class="blue-text">
-						Website <i class="material-icons">language</i>
-					</a>
-					<a href="https://github.com/Abhishekvaish/Article" target="_blank" class="blue-text">
-							Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- NeutraLit -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-				<div class="card-image">
-					<img src="img/projects/neutralit.JPG">
-				</div>
-
-				<div class="card-content">
-						<h5><b>NeutraLit</b> </h5>
-						<p>A Django Website For Sentiment Analysis on tweets.</p>
-				</div>
-
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>NeutraLit</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip brown white-text">Matplotlib</div>
-						<div class="chip lime white-text">Python</div>
-						<div class="chip teal white-text">HTML</div>
-						<div class="chip green white-text">Django</div>
+				<div class="card">
+					<div class="left">
+						<div class="clipinfo">
+							<h3>Tech Stack</h3>
+							<p>&star; Backend - Django</p>
+							<p>&star; Database - SQL</p>
+							<p>&star; Frontend - HTML,CSS,JS</p>
+							<p>&star; Server/Hosted on - Heroku</p>
+						</div>
+						<img class="p-img" src="img/projects/neutralit.JPG" alt="blogshare Cover picture" />
 					</div>
-					<p class="white-text">A website to show analysis based on the tweets.</p>
-				</div>
+					<div class="right">
+						<h3>NeutraLit</h3>
+						<p>
+							A website to show analysis based on the tweets collected from twitter made with Django as backend and HTML, Materialize
+							CSS and Vanilla JS as frontend
+						</p>
 
-				<div class="card-action">
-					<a href="https://neutralit.herokuapp.com/" target="_blank" class="blue-text">
-						Website <i class="material-icons">language</i>
-					</a>
-					<a href="https://github.com/Abhishekvaish/NeutraLit" target="_blank" class="blue-text">
-							Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- BlogShare -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-				<div class="card-image">
-					<img src="img/projects/blogshare.JPG">
-				</div>
-
-				<div class="card-content">
-					<h5><b>BlogShare</b> </h5>
-					<p>A Blog Application with a rich text editor made with Django</p>
-					
-				</div>
-
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>BlogShare</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip brown white-text">Materialize CSS</div>
-						<div class="chip red white-text">Python</div>
-						<div class="chip teal white-text">HTML</div>
-						<div class="chip green white-text">Django</div>
+						<a target="_blank" href="https://github.com/Abhishekvaish/NeutraLit" title=""><i class="fab fa-github large"></i></a>
+						<a target="_blank" href="https://neutralit.herokuapp.com/"> <i class="fas fa-globe large"></i></a>
 					</div>
-					<p class="white-text">A Complete blog application  that has user regsitration with confirmation email and has a rich text editor  </p>
 				</div>
-
-				<div class="card-action">
-					<a href="https://blogshare0.herokuapp.com/login/" target="_blank" class="blue-text">
-						Website <i class="material-icons">language</i>
-					</a>
-					<a href="https://github.com/Abhishekvaish/Project-Management-System" target="_blank" class="blue-text">
-						Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Cragads -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-				<div class="card-image">
-					<img src="img/projects/cragads.JPG">
-				</div>
-
-				<div class="card-content">
-					<h5><b>Cragads</b></h5>
-					<p>A website For Scraping Craglist made Using Django FrameWork.</p>
-					
-				</div>
-
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>Cragads</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip teal white-text">Materialize CSS</div>
-						<div class="chip red white-text">Python</div>
-						<div class="chip brown white-text">HTML</div>
-						<div class="chip green white-text">Django</div>
+				<div class="card">
+					<div class="left">
+						<h3>BlogShare</h3>
+						<hr />
+						<br />
+						<p>
+							A Complete blog application with rich text editor, registration and verification of new users made with Django, SQL
+							Database, Cloudinary for media server and Vue JS for frontend
+						</p>
+						<a target="_blank" href="https://github.com/Abhishekvaish/BlogShare" title=""><i class="fab fa-github large"></i></a>
+						<a target="_blank" href="https://blogshare0.herokuapp.com/home/"> <i class="fas fa-globe large"></i></a>
 					</div>
-					<p class="white-text">Searching Craglist for ads made Using Django FrameWork.</p>
-				</div>
-
-				<div class="card-action">
-					<a href="https://cragads.herokuapp.com/" target="_blank" class="blue-text">
-						Website <i class="material-icons">language</i>
-					</a>
-					<a href="https://github.com/Abhishekvaish/cragads" target="_blank" class="blue-text">
-						Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-
-				</div>
-			</div>
-		</div>
-
-		<!-- Socket -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-				<div class="card-image">
-					<img src="img/projects/android.jpg" class="responsive-img">
-				</div>
-				<div class="card-content">
-					<h5><b>Socket</b></h5>
-					<p>An  Offline Android Application to transfer files using socket.</p>
-					
-				</div>
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>Socket</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip red white-text">Android</div>
-						<div class="chip yellow darken-4 white-text">Java</div>
-						<div class="chip teal white-text">XML</div>
-						<div class="chip green white-text">Sockets</div>
+					<div class="right">
+						<div class="clipinfo">
+							<h3>Tech Stack</h3>
+							<p>&star; Backend - Django</p>
+							<p>&star; Database - Postgresql</p>
+							<p>&star; Frontend - HTML, CSS, JS</p>
+							<p>&star; Server/Hosted on - Heroku</p>
+						</div>
+						<img class="p-img" src="img/projects/blogshare.JPG" alt="blogshare Cover picture" />
 					</div>
-					<p class="white-text">An  Offline Android Application to transfer files using Java socket.</p>
 				</div>
 
-				<div class="card-action">
-					<a href="https://github.com/Abhishekvaish/Socket" target="_blank" class="blue-text">
-						Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
+				<h4 style="text-align: center; color: darkslategray">
+					View More Projects on
+					<a href="http://github.com/Abhishekvaish" target="_blank"> Github </a>
+				</h4>
+			</section>
 
-		<!-- Notes -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-				<div class="card-image">
-					<img src="img/projects/android.jpg" class="responsive-img">
-				</div>
-				<div class="card-content">
-					<h5><b>Notes</b></h5>
-					<p>An  Offline Android Application to Store Notes.</p>
-				</div>
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>Notes</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip lime darken-4 white-text">Android</div>
-						<div class="chip teal white-text">XML</div>
-						<div class="chip pink accent-4 white-text">Java</div>
-					</div>
-					<p class="white-text">An  Offline Android Application to Manage notes Notes. .</p>
-				</div>
+			<section class="experience" id="experience">
+				<h2>Experience</h2>
+				<div class="timeline"></div>
 
-				<div class="card-action">
-					<a href="https://github.com/Abhishekvaish/Notes-Applcation" target="_blank" class="blue-text">
-						Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
+				<div class="expdata">
+					<h3>Pingzee Technologies</h3>
+					<a href="https://www.flaticon.com/free-icons/calendar" title="Calendar icons created by Freepik - Flaticon " target="_blank"
+						><img src="icons/calendar.png" alt="calendar icon"
+					/></a>
 
-		<!-- News-Application -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-				<div class="card-image">
-					<img src="img/projects/android.jpg" class="responsive-img">
-				</div>
-				<div class="card-content">
-					<h5><b>News-Application</b></h5>
-					<p>An Android Application To get latest News Using RSS feed In Java.</p>
-				</div>
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>News-Application</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip brown white-text">Java</div>
-						<div class="chip blue white-text">XML</div>
-						<div class="chip teal white-text">Android</div>
-						<div class="chip green white-text">RSS</div>
-					</div>
-					<p class="white-text">An Android Application To get latest News Using RSS feed In Java.</p>
-				</div>
+					<b>3 months</b>
 
-				<div class="card-action">
-					<a href="https://github.com/Abhishekvaish/News-Application" target="_blank" class="blue-text">
-						Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
+					<br />
+					<a href="https://www.flaticon.com/free-icons/account" title="Account icons created by SBTS2018 - Flaticon" target="_blank"
+						><img src="icons/user.png"
+					/></a>
+					<b>Full-stack Developer Intern</b>
 
-		<!-- Word Predictor -->
-		<div class="col l4 s12 m6">
-			<div class="card hoverable medium sticky-action" >
-				<div class="card-image">
-					<img src="img/projects/terminal.JPG" class="responsive-img">
+					<br />
+					<a href="https://www.flaticon.com/free-icons/write" title="Write icons created by Aswell Studio - Flaticon" target="_blank"
+						><img src="icons/write.png"
+					/></a>
+					<b>Worked on backup intelligence Software ZeeQ with nodeJS and vueJS.</b>
 				</div>
-				<div class="card-content">
-					<h5><b>Word Predictor</b></h5>
-					<p>A CLI for predicting word using tree data structure In C.</p>
-				</div>
-				<div class="card-reveal-info">
-					<span class="card-title white-text text-darken-4">
-						<b>Word Predictor</b>
-					</span>
-					<div class="tech-stack">
-						<div class="chip pink darken-4 white-text">C</div>
-						<div class="chip orange white-text">DataStructure </div>
-						<div class="chip blue accent-4 white-text">trees</div>
-					</div>
-					<p class="white-text">A CLI for predicting word using tree data structure In C</p>
-				</div>
+				<div class="expdata">
+					<h3>Yoga Vidya Niketan</h3>
+					<a href="https://www.flaticon.com/free-icons/calendar" title="Calendar icons created by Freepik - Flaticon " target="_blank"
+						><img src="icons/calendar.png" alt="calendar icon"
+					/></a>
 
-				<div class="card-action">
-					<a href="https://github.com/Abhishekvaish/Word-Predictor" target="_blank" class="blue-text">
-						Source Code <i class="fab fa-github" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+					<b>1.5 months</b>
 
+					<br />
+					<a href="https://www.flaticon.com/free-icons/account" title="Account icons created by SBTS2018 - Flaticon" target="_blank"
+						><img src="icons/user.png"
+					/></a>
+					<b>Software Developer</b>
 
-<section id="experience">
-	<div style="height: 10rem;"></div>
-		<h3 class="container center"><b>Experience</b></h3>
-		<div style="height: 3rem;"></div>
-		<div class="container experience" >
-				<div class="card-panel hoverable">
-					<h4>Pingzee</h4>
-					<p class="">June 2021 - August 2021 </p>
-					<p>Worked on backup intelligence Software ZeeQ with nodeJS and vueJS</p>
+					<br />
+					<a href="https://www.flaticon.com/free-icons/write" title="Write icons created by Aswell Studio - Flaticon" target="_blank"
+						><img src="icons/write.png"
+					/></a>
+					<b>Built a software to generate reports from attendace collected from biometric system.</b>
 				</div>
-				<div class="card-panel hoverable">
-					<h4>Yoga Vidya Niketan</h4>
-					<p class="">Feb 2021 - March 2021 (45 Days) </p>
-					<p>Built a software to generate reports from attendace  collected from biometric system .</p>
-				</div>
-				<div class="card-panel hoverable">
-					<h4>Bitgenie</h4>
-					<p class="">June 2020 - August 2020  (3 Months) </p>
-					<p>Worked on Automation and scripting for collection of data </p>
-				</div>
-				<div class="card-panel hoverable">
-					<h4>Speedtechserve</h4>
-					<p class="">May 2020 - June 2020 (2 Weeks)</p>
-					<p>Worked as Frontend Developer and  made a landing page .</p>
-				</div>
-		</div>	
-</section>
+				<div class="expdata">
+					<h3>Bitgenie Research</h3>
+					<a href="https://www.flaticon.com/free-icons/calendar" title="Calendar icons created by Freepik - Flaticon " target="_blank"
+						><img src="icons/calendar.png" alt="calendar icon"
+					/></a>
 
+					<b>3 months</b>
 
-<section id="education">
-	<div style="height: 10rem;"></div>
-		<h3 class="container center">Education</h3>
-		<div style="height: 3rem;"></div>
-		<div class="container education ">
-			<div class="card-panel row  ">
-					<div class="bg red lighten-3 ">
-					</div>
-					<a href="https://kjsieit.somaiya.edu/en" target="blank">
-							<div class="col l3 m3 s12 icn"  >
-									<i class="fas fa-graduation-cap " style="font-size: 8rem;"></i>
-									<h6 class=""><u>Degree College</u></h6>
+					<br />
+					<a href="https://www.flaticon.com/free-icons/account" title="Account icons created by SBTS2018 - Flaticon" target="_blank"
+						><img src="icons/user.png"
+					/></a>
+					<b>Automation and Web Scrapping </b>
+
+					<br />
+					<a href="https://www.flaticon.com/free-icons/write" title="Write icons created by Aswell Studio - Flaticon" target="_blank"
+						><img src="icons/write.png"
+					/></a>
+					<b>Worked on Automation and scripting for collection of data.</b>
+				</div>
+				<div class="expdata">
+					<h3>Speed TechServe Pvt. Ltd.</h3>
+					<a href="https://www.flaticon.com/free-icons/calendar" title="Calendar icons created by Freepik - Flaticon " target="_blank"
+						><img src="icons/calendar.png" alt="calendar icon"
+					/></a>
+
+					<b>2 weeks</b>
+
+					<br />
+					<a href="https://www.flaticon.com/free-icons/account" title="Account icons created by SBTS2018 - Flaticon" target="_blank"
+						><img src="icons/user.png"
+					/></a>
+					<b>Frontend Developer</b>
+
+					<br />
+					<a href="https://www.flaticon.com/free-icons/write" title="Write icons created by Aswell Studio - Flaticon" target="_blank"
+						><img src="icons/write.png"
+					/></a>
+					<b>Created the front-end design of a website with a contact form to send email.</b>
+				</div>
+			</section>
+
+			<section class="education" id="education">
+				<div class="card">
+					<h2>Education</h2>
+					<div class="strip">
+						<div class="institute">
+							<a href="https://www.flaticon.com/free-icons/degree" title="Degree icons created by Freepik - Flaticon" target="_blank">
+								<img src="icons/degree.png" alt="degree icon" />
+							</a>
+							<div>
+								<h3>Bachleors of Technology in Computer Engineering</h3>
+								<p>K.J. Somaiya Institute of Engineering and I.T.</p>
 							</div>
-							<div class="col l9 m9 s12">
-									<h5>K.J. Somaiya Institute Of Enginering and Information Technology</h5>
-									<p> <i class="material-icons tiny">place</i> Sion, Mumbai, Maharashtra</p>
-									<p class="">Bachleors In Computer Engineering (2022 Expected)</p>
-							</div>							
-					</a>
-			</div>
-			<div class="card-panel row ">
-					<div class="bg blue lighten-3 "></div>
-					<a href="https://standrewscollege.ac.in/" target="blank">
-							<div class="col l3 m3 s12 icn" >
-								<i class="fas fa-university " style="font-size: 8rem;"></i>
-									<h6 class=""><u>Junior College</u></h6>
+						</div>
+
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/calendar"
+								title="Calendar icons created by Freepik - Flaticon "
+								target="_blank"
+							>
+								<img src="icons/calendar-negative.png" alt="calendar icon"
+							/></a>
+							Completion Year : 2022 - Expected
+						</p>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/location"
+								title="Location icons created by Freepik - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/location.png" alt="location icon"
+							/></a>
+							Location : Sion, Mumbai
+						</p>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/discount"
+								title="Discount icons created by Gregor Cresnar Premium - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/percentage.png" alt="Percentage icon"
+							/></a>
+
+							Current C.G.P.A - 9.69
+						</p>
+
+						<br />
+						<div class="institute">
+							<a
+								href="https://www.flaticon.com/free-icons/college"
+								title="College icons created by FauzIDEA - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/college.png" alt="college icon" />
+							</a>
+							<div>
+								<h3>HSC (Science) + Bifocal (Computer Science)</h3>
+								<p>St. Andrew's College of Arts,Science and Commerce</p>
 							</div>
-							<div class="col l9 m9 s12">
-									<h5>St. Andrews College of Arts, Science and Commerce </h5>
-									<p><i class="material-icons tiny">place</i> Bandra, Mumbai, Maharashtra</p>
-									<p class="">HSC Science + Bifocal(Computer Science) (2018) </p>
-							</div>							
-					</a>
-			</div>
-			<div class="card-panel row ">
-					<div class="bg teal lighten-3"></div>
-					<a href="http://www.aloysiusbandra.in/" target="blank">
-							<div class="col l3 m3 s12 icn" >
-								<i class="fas fa-school " style="font-size: 7rem;"></i>
-									<h6 class=""><u>School</u></h6>
+						</div>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/calendar"
+								title="Calendar icons created by Freepik - Flaticon "
+								target="_blank"
+							>
+								<img src="icons/calendar-negative.png" alt="calendar icon"
+							/></a>
+							Completion Year : 2018
+						</p>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/location"
+								title="Location icons created by Freepik - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/location.png" alt="location icon"
+							/></a>
+							Location : Bandra, Mumbai
+						</p>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/discount"
+								title="Discount icons created by Gregor Cresnar Premium - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/percentage.png" alt="Percentage icon"
+							/></a>
+
+							Percentage : 93.69%
+						</p>
+						<br />
+
+						<div class="institute">
+							<a
+								href="https://www.flaticon.com/free-icons/college"
+								title="College icons created by Good Ware - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/school.png" alt="school icon" />
+							</a>
+							<div>
+								<h3>SSC</h3>
+								<p>St. Aloysius High School</p>
 							</div>
-							<div class="col l9 m9 s12">
-									<h5>St. Aloysius High School </h5>
-									<p><i class="material-icons tiny">place</i> Bandra, Mumbai, Maharashtra</p>
-									<p class="">SSC (2016) </p>
-							</div>
-					</a>
+						</div>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/calendar"
+								title="Calendar icons created by Freepik - Flaticon "
+								target="_blank"
+							>
+								<img src="icons/calendar-negative.png" alt="calendar icon"
+							/></a>
+							Completion Year : 2016
+						</p>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/location"
+								title="Location icons created by Freepik - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/location.png" alt="location icon"
+							/></a>
+							Location : Bandra, Mumbai
+						</p>
+						<p>
+							<a
+								href="https://www.flaticon.com/free-icons/discount"
+								title="Discount icons created by Gregor Cresnar Premium - Flaticon"
+								target="_blank"
+							>
+								<img src="icons/percentage.png" alt="Percentage icon"
+							/></a>
+
+							Percentage : 85.60%
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="skills" id="skills">
+				<h2>Skills</h2>
+				<div class="sk-flex">
+					<div class="sk-name">Python</div>
+					<div class="sk-name">Django</div>
+					<div class="sk-name">SQL</div>
+
+					<div class="sk-name">JavaScript</div>
+					<div class="sk-name">NodeJS</div>
+					<div class="sk-name">MongoDB</div>
+					<div class="sk-name">Express</div>
+					<div class="sk-name">ReactJS</div>
+					<!-- <div class="sk-name">VueJS</div> -->
+					<div class="sk-name">GatsbyJS</div>
+
+					<div class="sk-name">HTML5</div>
+					<div class="sk-name">CSS3</div>
+
+					<div class="sk-name">Git</div>
+					<div class="sk-name">Android Native - Java</div>
+					<div class="sk-name">Flutter</div>
+				</div>
+			</section>
+
+			<div class="blog">
+				<h2>Check out my blog at <a href="https://abhishekvaish.com/blog" target="_blank">abhishekvaish.com/blog</a></h2>
 			</div>
-		</div>
-</section>
-
-
-<!-- </div> -->
-
-<!-- <div style="height: 100vh;"></div> -->
-<section id="skills">
-	<div class="container">
-		<h1 class="center">Skills</h1>
-
-		<div class="skimg-container">
-			<div class="skimg">Python</div>
-			<div class="skimg">C</div>
-			<div class="skimg">Java</div>
-			<div class="skimg">Android</div>
-			<div class="skimg">HTML</div>
-			<div class="skimg">CSS</div>
-			<div class="skimg">JavaScript</div>
-			<div class="skimg">Django</div>
-			<div class="skimg">NodeJS</div>
-			<div class="skimg">MongoDB</div>
-			<div class="skimg">SQL</div>
-			<div class="skimg">GatsbyJS</div>
-			<div class="skimg">Git</div>	
-		</div>
-		
-	</div>
-</section>
-<!-- <div style="height: 100vh;"></div> -->
-
-<!-- <div style="display:none"> -->
-	
-<section id="contact">
-	<div style="height: 3rem;"></div>
-	<div class="container grey darken-3 white-text center ">
-			<h3>Contact</h3>
-			<p>Get In touch with me at..</p>
-			
-			<div class="sm-links">
-				<a href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;to=abhishek953566936222@gmail.com&amp;tf=1" target="blank" class="white-text smlink">
-						<i class="fa fa-envelope large " aria-hidden="true"></i>
-				</a>
-				<a href="https://github.com/Abhishekvaish" target="blank" class="white-text smlink">
-						<i class="fab fa-github large " aria-hidden="true"></i>
-				</a>
-				<a href="https://twitter.com/Abhishekvaish40" target="blank" class="white-text smlink">
-						<i class="fab fa-twitter large " aria-hidden="true"></i>
-				</a>
-				<a href="https://www.linkedin.com/in/abhishek-vaish-b3195817a/" target="blank" class="white-text smlink">
-						<i class="fa fa-linkedin-square large " aria-hidden="true"></i>
-				</a>
-				<br><br><br>
-				<a href="img/Abhishek_Vaish.pdf" target="blank" class="btn white black-text hoverable waves-effect waves-gray"><i class="material-icons" style="vertical-align: top;">file_download</i> Resume</a>
-			</div>		
-		</div>
-</section>
-
-
-<div style="height:10rem">
-</div>
-
-<footer class="page-footer black ">
-	<div class="footer-copyright">
-		<div class="container">
-      <p class="center-align">
-          This Website is made with Materialize CSS and Greensock Animation by Abhishek Vaish.
-          View the Source Code on <a href="https://github.com/Abhishekvaish/Abhishekvaish.github.io" target="blank">Github</a>   
-      </p>
-      <p class="center-align">
-          All right Reserved © 2021 Copyright           
-      </p>
-    </div>
-	</div>
-</footer>
-
-<!-- </div> -->
-
-
-<!--JavaScript at end of body for optimized loading-->
-<script src="https://kit.fontawesome.com/8806ff8ba0.js" crossorigin="anonymous"></script>
-<script src="js/particles.js"></script>
-<script src="js/particle-app.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+		</main>
+		<footer>
+			This Website is made by Abhishek Vaish. View the Source Code on
+			<a href="https://github.com/Abhishekvaish/Abhishekvaish.github.io" style="color: white" target="_blank"> Github </a>
+		</footer>
+		<script src="https://kit.fontawesome.com/8806ff8ba0.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
