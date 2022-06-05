@@ -19,6 +19,3 @@ function animateHeroText(index) {
 	setTimeout(() => animateHeroText(index + 1), 100)
 }
 animateHeroText(0)
-
-const navItems = document.querySelector(".nav-items")
-// document.getElementById("hamburger").onclick = () => {}
