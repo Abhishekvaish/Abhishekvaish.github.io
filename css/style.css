@@ -147,8 +147,7 @@ label div {
 .about .card .pic img {
 	width: clamp(15rem, 40vw, 18rem);
 	height: clamp(15rem, 40vw, 18rem);
-	margin-left: 1.5rem;
-	margin: 0 auto;
+	padding: 10px 40px;
 }
 .about .card .info {
 	order: 1;

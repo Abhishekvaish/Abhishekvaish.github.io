@@ -1,5 +1,5 @@
 const heroElement = document.querySelector(".hero h1")
-heroElement.herotext = "Hi I am Abhishek \nनमस्ते मैं अभिषेक हूँ \nनमस्कार मी अभिषेक \nHi I am Abhishek"
+heroElement.herotext = "Hi......\n I am Abhishek\n I work as a software engineer\n Nice to meet you!"
 
 function animateHeroText(index) {
 	if (index >= heroElement.herotext.length) {
